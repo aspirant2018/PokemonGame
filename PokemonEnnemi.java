@@ -21,10 +21,6 @@ public class PokemonEnnemi extends Pokemon {
 	
 	public void move(ArrayList chemin) {
 		
-		
-		System.out.println("Position X de Pokemon Ennemi"+this.getX());
-		System.out.println("Position Y de pokemon Ennemi"+this.getY());
-		
 		int taille = chemin.size();
 		
 		for (int i=0;i<taille;i++) {
@@ -36,8 +32,6 @@ public class PokemonEnnemi extends Pokemon {
 			
 			System.out.println("nouvelle position X "+this.getX());
 			System.out.println("nouvelle position Y "+this.getY());
-			
-			
 			
 		}
 		
